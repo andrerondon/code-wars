@@ -13,4 +13,19 @@ function digital_root(n) {
    }
    return someOne;
   }
-console.log(digital_root(1234));
+console.log(digital_root(12348));
+
+
+
+// recusion mode
+
+// function digital_root(n){
+//     n = eval(n.toString().split('').join('+'));
+
+//     if (n > 9) {
+//         return digital_root(n);
+//     }
+
+//     return n;
+// }
+// console.log(digital_root(12348));
